@@ -1,6 +1,4 @@
-# python-crawler-twitter-api
-
-## how to run project
+## Como executar o projeto
 
 1. Fazer download do projeto com o comando `git clone https://github.com/ATCamposs/python-crawler-twitter-api.git`
 2. Entre na pasta do projeto com o comando `cd python-crawler-twitter-api`
