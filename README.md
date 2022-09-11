@@ -2,9 +2,10 @@
 
 ## how to run project
 
- 1. Entre na pasta do projeto
- 2. Instale os pacotes necessários com o comando `pip3 install -r requirements.txt`
- 3. Rode o arquivo principan do projeto com o comando `python3 main.py`
+1. Fazer download do projeto com o comando `git clone https://github.com/ATCamposs/python-crawler-twitter-api.git`
+2. Entre na pasta do projeto com o comando `cd python-crawler-twitter-api`
+3. Instale os pacotes necessários com o comando `pip3 install -r requirements.txt`
+4. Rode o arquivo principal do projeto com o comando `python3 main.py`
 
 **Resultado**
 
