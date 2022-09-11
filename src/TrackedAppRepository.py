@@ -4,13 +4,16 @@ import logging as log
 
 class TrackedAppRepository:
     conn = None
+    path = None
 
     def __init__(self, path):
-        log.info(path)
-        self.conn = sqlite3.connect(path)
+        self.path = path
 
     def __del__(self):
         self.conn.close()
+
+    def connect_to_db(self):
+        self.conn = sqlite3.connect(self.path)
 
     def insert_track_list_on_db(self, track_list):
         log.info("Starting data insertion")

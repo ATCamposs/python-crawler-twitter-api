@@ -69,6 +69,7 @@ class TrackedAppService:
 
     def create_db_file_with_track_list(self, track_list):
         log.info("Creating sqlite DB file with track_list")
+        self.tracked_app_repo.connect_to_db()
         self.tracked_app_repo.create_table_tracked_apps()
         self.tracked_app_repo.remove_old_data_from_tacked_apps_table()
         self.tracked_app_repo.insert_track_list_on_db(track_list)
